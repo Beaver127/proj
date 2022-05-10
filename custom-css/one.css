@@ -1,0 +1,46 @@
+.main-block__block-wrapper__input input {
+  background-color: #000;
+  font-family: TexGyreHeros;
+  font-size: 18px;
+  color: #a5fa00;
+  border: 1px solid #a5fa00;
+  padding: 10px 20px;
+  height: 50px;
+  width: 400px;
+ 
+}
+@media(max-width: 480px) {
+    .main-block__block-wrapper__input input {
+       width: 300px;
+    }
+}
+@media(max-width: 360px) {
+    .main-block__block-wrapper__input input {
+       width: 250px;
+    }
+}
+.main-block__block-wrapper__input input::placeholder {
+font-size: 18px;
+color: grey;
+}
+.footer {
+    margin-top: 30px;
+}
+.main-block__calc-btn {
+    margin-top: 20px;
+}
+.main-block__block-wrapper__message {
+    color: red;
+    font-size: 18px;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 100%;
+    text-align: center;
+    
+}
+.main-block__block-wrapper {
+    position: relative;
+}
